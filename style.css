@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+  box-sizing: border-box;
+}
+
+body {
+  height: 5500px;
+}
+
+.jumbotron h1 {
+  font-size: 56px;
+}
+.jumbotron p {
+  color: #728196;
+  font-size: 20px;
+}
+.benefits {
+  font-size: 48px;
+  margin-top: 50px;
+}
+.pbenefits {
+  color: #728196;
+  font-size: 20px;
+  font-weight: 500;
+}
+.detail h2 {
+  font-size: 16px;
+  display: block !important;
+}
+.detail img {
+  width: 60px;
+  height: 60px;
+}
+
+.purpose {
+  margin-top: 80px;
+}
+
+@media (min-width: 576px) {
+  .benefits {
+    font-size: 48px;
+    margin-top: 430px;
+  }
+  .detail h2 {
+    font-size: 24px;
+    display: inline !important;
+  }
+  .detail img {
+    width: 110px;
+    height: 110px;
+  }
+  .purpose {
+    margin-top: 195px;
+  }
+  .container h1 {
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .container p {
+    font-size: 20px;
+    color: #728196;
+  }
+}
